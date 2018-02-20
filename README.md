@@ -11,7 +11,7 @@ apt-cache policy docker-engine
 sudo apt-get install -y docker-engine
 sudo systemctl status docker
 
-# Install docker on Fedora 20
+# Install docker on Fedora 27
 sudo dnf -y install dnf-plugins-core
 sudo dnf config-manager \
     --add-repo \
